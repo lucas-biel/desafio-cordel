@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --paragraph-font: 'Sriracha', sans-serif;
+  --header-font: 'Passion One', sans-serif;
+
+  font-size: 10px;
+}
+
+html, body {
+  min-height: 100vh;
+  background-color: darkgray;
+}
