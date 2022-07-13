@@ -8,8 +8,9 @@
 }
 
 :root {
+  --normal-font: Verdana, Tahoma, sans-serif;
   --paragraph-font: 'Sriracha', cursive;
-  --primary-font: 'Passion One', sans-serif;
+  --primary-font: 'Passion One', cursive;
 
   font-size: 10px;
 }
@@ -17,17 +18,13 @@
 html, body {
   min-height: 100vh;
   background-color: darkgray;
-}
-
-body {
-  font: 1.6rem var(--paragraph-font);
+  font: 1.6rem var(--normal-font);
 }
 
 header {
   background-color: black;
   color: white;
 
-  font: 2.4rem var(--primary-font);
   text-align: center;
 }
 
@@ -42,8 +39,10 @@ a:hover {
 
 section {
   padding-block: 10vh;
-  line-height: 3.2rem;
   padding-left: 3rem;
+
+  font: 2.5vh var(--paragraph-font);
+  line-height: 3.2rem;
 }
 
 .normal {
@@ -59,7 +58,6 @@ footer {
   background-color: black;
   color: white;
 
-  font: normal 1.8rem var(--primary-font);
   text-align: center;
 
   padding: 1rem;
