@@ -4,11 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
-  --paragraph-font: 'Sriracha', sans-serif;
-  --header-font: 'Passion One', sans-serif;
+  --paragraph-font: 'Sriracha', cursive;
+  --primary-font: 'Passion One', sans-serif;
 
   font-size: 10px;
 }
@@ -16,4 +17,48 @@
 html, body {
   min-height: 100vh;
   background-color: darkgray;
+}
+
+body {
+  font: 1.6rem var(--paragraph-font);
+}
+
+header {
+  background-color: black;
+  color: white;
+
+  font: 2.4rem var(--primary-font);
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-block: 10vh;
+}
+
+.normal {
+  background-color: white;
+}
+
+.image {
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+
+  font: normal 1.8rem var(--primary-font);
+  text-align: center;
+
+  padding: 1rem;
 }
