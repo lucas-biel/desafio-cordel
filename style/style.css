@@ -20,7 +20,18 @@ section p {
 }
 
 .image p {
-  background-color: rgba(0, 0, 0, 0.253);
+  background-color: rgba(0, 0, 0, 0.514);
   width: 40rem;
   padding: 0.5rem;
+
+  text-shadow: 1px 1px 0px black;
+}
+
+#img-01 {
+  background-image: url('../images/background001.jpg');
+  background-position: right center;
+}
+
+#img-02 {
+  background-image: url('../images/background002.jpg');
 }
