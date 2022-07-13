@@ -3,6 +3,7 @@
 header h1 {
   text-transform: uppercase;
   letter-spacing: 0.145rem;
+  font: 6.7vh var(--primary-font);
 
   padding-top: 5rem;
 }
@@ -10,11 +11,12 @@ header h1 {
 header p {
   padding-bottom: 5rem;
   
-  font: 2.2rem var(--paragraph-font);
+  font: 3vh var(--paragraph-font);
   letter-spacing: 0.125rem;
 }
 
 .image p {
   background-color: rgba(0, 0, 0, 0.253);
   width: 40rem;
+  padding: 0.5rem;
 }
