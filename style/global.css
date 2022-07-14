@@ -37,9 +37,17 @@ a:hover {
   text-decoration: underline;
 }
 
+main {
+  max-width: 80rem;
+  margin: auto;
+}
+
 section {
   padding-block: 10vh;
   padding-left: 3rem;
+  margin-block: 0.5rem;
+
+  border-radius: 0.8rem;
 
   font: 2.5vh var(--paragraph-font);
   line-height: 3.2rem;
