@@ -1,4 +1,4 @@
-# Projeto Redes Cordel
+# Projeto Cordel
 
 ## Do que se trata?
 * Esse projeto foi sugerido no curso de HTML e CSS do canal Curso em Vídeo, no terceiro módulo do curso.
